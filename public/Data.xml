@@ -1,0 +1,799 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GenoPro>
+  <Software>GenoPro
+    <Name>GenoPro® - Picture Your Family Tree!(TM)</Name>
+    <Version>3.0.1.5</Version>
+    <Address>http://www.genopro.com</Address>
+  </Software>
+  <Date>23 Jan 2023</Date>
+
+<Global>
+  <Name>
+    <Full Format="%T %F (%N) %M %L (%L2) %S"/>
+    <Display Format="%F %M %L (%L2)" Lines="3"/>
+  </Name>
+  <Font>Arial</Font>
+  <Display>
+    <Tag>YoB_YoD</Tag>
+    <Colors>
+      <Gender Symbol="#000000" Text="#000000" Fill="#FFFFFF">
+        <Fill>
+          <Top Left="#FF0000" Right="#FF0000"/>
+          <Bottom Left="#FF0000" Right="#FF0000"/>
+        </Fill>
+      </Gender>
+      <Border Outline="#6E6EFF">
+        <Fill>#FFFF80</Fill>
+      </Border>
+      <Label Top="#000000" Bottom="#000000">
+        <Fill Top="#FFFFFF" Bottom="#FFFFFF"/>
+      </Label>
+    </Colors>
+  </Display>
+  <Tags ID="Individual">
+    <TagData Name="Title">
+      <DisplayName>Title</DisplayName>
+    </TagData>
+    <DialogLayout Name="Niestandardowe znaczniki">
+      <Description>Niestandardowy znacznik to modyfikowalny pojemnik na dane pozwalający przechowywać dodatkowe informacje. Możesz edytować te znaczniki używając ich edytora z menu Narzędzia.</Description>
+      <Tags>Title</Tags>
+    </DialogLayout>
+  </Tags>
+  <ActiveGenoMap>GenoMap1</ActiveGenoMap>
+</Global>
+<GenoMaps>
+<GenoMap Name="GenoMap1" Zoom="40" Position="231,-21" BoundaryRect="-550,342,489,-340"/>
+<GenoMap Name="GenoMap2"/>
+<GenoMap Name="GenoMap3"/>
+</GenoMaps>
+<Individuals>
+<Individual ID="I0001">
+  <Name>William Shakespeare
+    <Display>William Shakespeare</Display>
+    <First>William</First>
+    <Last>Shakespeare</Last>
+  </Name>
+  <Position BoundaryRect="-275,12,-195,-67">-235,-20</Position>
+  <Gender>M</Gender>
+  <Pictures Primary="pic00001">pic00001</Pictures>
+  <Birth>
+    <Date>23 Apr 1564</Date>
+    <Place>place00001</Place>
+    <Baptism>
+      <Date>26 Apr 1564</Date>
+      <Place>place00001</Place>
+    </Baptism>
+  </Birth>
+  <IsDead>Y</IsDead>
+  <Death>
+    <Date>23 Apr 1616</Date>
+    <Place>place00001</Place>
+  </Death>
+</Individual>
+<Individual ID="I0002">
+  <Name>Mary Arden
+    <Display>Mary Arden</Display>
+    <First>Mary</First>
+    <Last>Arden</Last>
+  </Name>
+  <Position BoundaryRect="231,192,299,113">265,160</Position>
+  <Gender>F</Gender>
+  <Pictures Primary="pic00004">pic00004</Pictures>
+  <Birth>
+    <Date>1537</Date>
+  </Birth>
+  <IsDead>Y</IsDead>
+  <Death>
+    <Date>17 Sep 1608</Date>
+  </Death>
+</Individual>
+<Individual ID="I0003">
+  <Name>John Shakespeare
+    <Display>John Shakespeare</Display>
+    <First>John</First>
+    <Last>Shakespeare</Last>
+  </Name>
+  <Position BoundaryRect="-515,197,-435,118">-475,165</Position>
+  <Gender>M</Gender>
+  <Pictures Primary="pic00005">pic00005</Pictures>
+  <Birth>
+    <Date>1531</Date>
+  </Birth>
+  <IsDead>Y</IsDead>
+  <Death>
+    <Date>7 Sep 1601</Date>
+    <Disposition>
+      <Date>8 Sep 1601</Date>
+    </Disposition>
+  </Death>
+</Individual>
+<Individual ID="I0004">
+  <Name>Anne Hathaway
+    <Display>Anne Hathaway</Display>
+    <First>Anne</First>
+    <Last>Hathaway</Last>
+  </Name>
+  <Position BoundaryRect="326,12,394,-67">360,-20</Position>
+  <Gender>F</Gender>
+  <Pictures Primary="pic00003">pic00003</Pictures>
+  <Birth>
+    <Date>6 Apr 1556</Date>
+    <Place>place00002</Place>
+  </Birth>
+  <IsDead>Y</IsDead>
+  <Death>
+    <Date>6 Aug 1623</Date>
+    <Place>place00001</Place>
+  </Death>
+</Individual>
+<Individual ID="I0005">
+  <Name>Susanna Shakespeare
+    <Display>Susanna Shakespeare</Display>
+    <First>Susanna</First>
+    <Last>Shakespeare</Last>
+  </Name>
+  <Position BoundaryRect="-250,-108,-170,-187">-210,-140</Position>
+  <Gender>F</Gender>
+  <Birth>
+    <Date>20 May 1583</Date>
+    <Place>place00001</Place>
+    <Baptism>
+      <Date>26 May 1583</Date>
+      <Place>place00001</Place>
+    </Baptism>
+  </Birth>
+  <IsDead>Y</IsDead>
+  <Death>
+    <Date>11 Jul 1649</Date>
+    <Place>place00001</Place>
+  </Death>
+</Individual>
+<Individual ID="I0006">
+  <Name>Hamnet Shakespeare
+    <Display>Hamnet Shakespeare</Display>
+    <First>Hamnet</First>
+    <Last>Shakespeare</Last>
+  </Name>
+  <Position BoundaryRect="-155,-108,-75,-187">-115,-140</Position>
+  <Gender>M</Gender>
+  <Birth>
+    <Date>1 Jan 1585</Date>
+    <Place>place00001</Place>
+    <Baptism>
+      <Date>2 Feb 1585</Date>
+      <Place>place00001</Place>
+    </Baptism>
+  </Birth>
+  <IsDead>Y</IsDead>
+  <Death>
+    <Date>8 Aug 1596</Date>
+    <Place>place00001</Place>
+    <Disposition>
+      <Date>11 Aug 1596</Date>
+      <Place>place00001</Place>
+    </Disposition>
+  </Death>
+</Individual>
+<Individual ID="I0007">
+  <Name>Judith Shakespeare
+    <Display>Judith Shakespeare</Display>
+    <First>Judith</First>
+    <Last>Shakespeare</Last>
+  </Name>
+  <Position BoundaryRect="205,-108,285,-187">245,-140</Position>
+  <Gender>F</Gender>
+  <Pictures Primary="pic00002">pic00002</Pictures>
+  <Birth>
+    <Date>1 Jan 1585</Date>
+    <Place>place00001</Place>
+    <Baptism>
+      <Date>2 Feb 1585</Date>
+      <Place>place00001</Place>
+    </Baptism>
+  </Birth>
+  <IsDead>Y</IsDead>
+  <Death>
+    <Date>7 Feb 1662</Date>
+    <Place>place00001</Place>
+    <Disposition>
+      <Date>9 Feb 1662</Date>
+      <Place>place00001</Place>
+    </Disposition>
+  </Death>
+</Individual>
+<Individual ID="I0008">
+  <Name>Joan Shakespeare
+    <Display>Joan Shakespeare</Display>
+    <First>Joan</First>
+    <Last>Shakespeare</Last>
+  </Name>
+  <Position BoundaryRect="-465,12,-385,-67">-425,-20</Position>
+  <Gender>F</Gender>
+  <Birth>
+    <Date>11 Sep 1558</Date>
+    <Baptism>
+      <Date>15 Sep 1558</Date>
+    </Baptism>
+  </Birth>
+  <IsDead>Y</IsDead>
+  <Death>
+    <Date>22 Sep 1558</Date>
+  </Death>
+</Individual>
+<Individual ID="I0009">
+  <Name>Margaret Shakespeare
+    <Display>Margaret Shakespeare</Display>
+    <First>Margaret</First>
+    <Last>Shakespeare</Last>
+  </Name>
+  <Position BoundaryRect="-370,12,-290,-67">-330,-20</Position>
+  <Gender>F</Gender>
+  <Birth>
+    <Date>30 Nov 1562</Date>
+    <Baptism>
+      <Date>2 Dec 1562</Date>
+    </Baptism>
+  </Birth>
+  <IsDead>Y</IsDead>
+  <Death>
+    <Date>28 Apr 1563</Date>
+    <Disposition>
+      <Date>30 Apr 1563</Date>
+    </Disposition>
+  </Death>
+</Individual>
+<Individual ID="I0010">
+  <Name>Gilbert Shakespeare
+    <Display>Gilbert Shakespeare</Display>
+    <First>Gilbert</First>
+    <Last>Shakespeare</Last>
+  </Name>
+  <Position BoundaryRect="-180,12,-100,-67">-140,-20</Position>
+  <Gender>M</Gender>
+  <Birth>
+    <Date>22 Oct 1566</Date>
+  </Birth>
+  <IsDead>Y</IsDead>
+  <Death>
+    <Date>22 Jan 1612</Date>
+  </Death>
+</Individual>
+<Individual ID="I0011">
+  <Name>Joan Shakespeare
+    <Display>Joan Shakespeare</Display>
+    <First>Joan</First>
+    <Last>Shakespeare</Last>
+  </Name>
+  <Position BoundaryRect="-85,12,-5,-67">-45,-20</Position>
+  <Gender>F</Gender>
+  <Birth>
+    <Date>1 Apr 1569</Date>
+  </Birth>
+  <IsDead>Y</IsDead>
+  <Death>
+    <Date>16 Nov 1646</Date>
+  </Death>
+</Individual>
+<Individual ID="I0012">
+  <Name>Anne Shakespeare
+    <Display>Anne Shakespeare</Display>
+    <First>Anne</First>
+    <Last>Shakespeare</Last>
+  </Name>
+  <Position BoundaryRect="15,12,95,-67">55,-20</Position>
+  <Gender>F</Gender>
+  <Birth>
+    <Date>24 Sep 1571</Date>
+  </Birth>
+  <IsDead>Y</IsDead>
+  <Death>
+    <Date>11 Apr 1579</Date>
+  </Death>
+</Individual>
+<Individual ID="I0013">
+  <Name>Richard Shakespeare
+    <Display>Richard Shakespeare</Display>
+    <First>Richard</First>
+    <Last>Shakespeare</Last>
+  </Name>
+  <Position BoundaryRect="110,12,190,-67">150,-20</Position>
+  <Gender>M</Gender>
+  <Birth>
+    <Date>15 Mar 1574</Date>
+  </Birth>
+  <IsDead>Y</IsDead>
+  <Death>
+    <Date>2 Feb 1613</Date>
+  </Death>
+</Individual>
+<Individual ID="I0014">
+  <Name>Edmund Shakespeare
+    <Display>Edmund Shakespeare</Display>
+    <First>Edmund</First>
+    <Last>Shakespeare</Last>
+  </Name>
+  <Position BoundaryRect="205,12,285,-67">245,-20</Position>
+  <Gender>M</Gender>
+  <Birth>
+    <Date>1 Apr 1580</Date>
+  </Birth>
+  <IsDead>Y</IsDead>
+  <Death>
+    <Date>14 Dec 1607</Date>
+  </Death>
+</Individual>
+<Individual ID="I0015">
+  <Name>Richard Shakespeare
+    <Display>Richard Shakespeare</Display>
+    <First>Richard</First>
+    <Last>Shakespeare</Last>
+  </Name>
+  <Position BoundaryRect="-550,342,-470,263">-510,310</Position>
+  <Gender>M</Gender>
+  <Birth>
+    <Date>1490</Date>
+  </Birth>
+  <IsDead>Y</IsDead>
+  <Death>
+    <Date>10 Feb 1561</Date>
+  </Death>
+</Individual>
+<Individual ID="I0016">
+  <Name>Henry Shakespeare
+    <Display>Henry Shakespeare</Display>
+    <First>Henry</First>
+    <Last>Shakespeare</Last>
+  </Name>
+  <Position BoundaryRect="-420,197,-340,118">-380,165</Position>
+  <Gender>M</Gender>
+  <IsDead>Y</IsDead>
+  <Death>
+    <Date>1596</Date>
+  </Death>
+</Individual>
+<Individual ID="I0017">
+  <Name>Margaret
+    <Display>Margaret</Display>
+    <First>Margaret</First>
+  </Name>
+  <Position BoundaryRect="-324,192,-256,127">-290,160</Position>
+  <Gender>F</Gender>
+  <IsDead>Y</IsDead>
+  <Death>
+    <Date>1597</Date>
+  </Death>
+</Individual>
+<Individual ID="I0018">
+  <Name>Agnes Webbe
+    <Display>Agnes Webbe</Display>
+    <First>Agnes</First>
+    <Last>Webbe</Last>
+  </Name>
+  <IsDead>Y</IsDead>
+  <Position BoundaryRect="294,306,346,233">320,280</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="I0019">
+  <Name>Robert Arden
+    <Display>Robert Arden</Display>
+    <First>Robert</First>
+    <Last>Arden</Last>
+  </Name>
+  <Position BoundaryRect="211,312,279,233">245,280</Position>
+  <Gender>M</Gender>
+  <IsDead>Y</IsDead>
+  <Death>
+    <Date>22 Dec 1556</Date>
+  </Death>
+</Individual>
+<Individual ID="I0020">
+  <Name>John Hall
+    <Display>John Hall</Display>
+    <First>John</First>
+    <Last>Hall</Last>
+  </Name>
+  <Position BoundaryRect="-334,-108,-266,-187">-300,-140</Position>
+  <Gender>M</Gender>
+  <Birth>
+    <Date>1575</Date>
+  </Birth>
+  <IsDead>Y</IsDead>
+  <Death>
+    <Date>11 Nov 1635</Date>
+  </Death>
+  <Title>Dr.</Title>
+</Individual>
+<Individual ID="I0021">
+  <Name>Elizabeth Shakespeare
+    <Display>Elizabeth Shakespeare</Display>
+    <First>Elizabeth</First>
+    <Last>Shakespeare</Last>
+  </Name>
+  <Position BoundaryRect="-315,-223,-235,-302">-275,-255</Position>
+  <Gender>F</Gender>
+  <Birth>
+    <Date>23 Feb 1608</Date>
+    <Baptism>
+      <Date>21 Feb 1608</Date>
+      <Place>place00001</Place>
+    </Baptism>
+  </Birth>
+  <IsDead>Y</IsDead>
+  <Death>
+    <Date>1 Feb 1670</Date>
+  </Death>
+</Individual>
+<Individual ID="I0022">
+  <Name>Thomas Nash
+    <Display>Thomas Nash</Display>
+    <First>Thomas</First>
+    <Last>Nash</Last>
+  </Name>
+  <Position BoundaryRect="-399,-223,-331,-302">-365,-255</Position>
+  <Gender>M</Gender>
+  <Birth>
+    <Date>1593</Date>
+  </Birth>
+  <IsDead>Y</IsDead>
+  <Death>
+    <Date>8 Apr 1647</Date>
+  </Death>
+</Individual>
+<Individual ID="I0023">
+  <Name>John Barnard
+    <Display>John Barnard</Display>
+    <First>John</First>
+    <Last>Barnard</Last>
+  </Name>
+  <Position BoundaryRect="-484,-223,-416,-302">-450,-255</Position>
+  <Gender>M</Gender>
+  <IsDead>Y</IsDead>
+  <Death>
+    <Date>1674</Date>
+  </Death>
+  <Title>Sir</Title>
+</Individual>
+<Individual ID="I0024">
+  <Name>Thomas Quiney
+    <Display>Thomas Quiney</Display>
+    <First>Thomas</First>
+    <Last>Quiney</Last>
+  </Name>
+  <Position BoundaryRect="-54,-108,14,-187">-20,-140</Position>
+  <Gender>M</Gender>
+  <Birth>
+    <Date>1589</Date>
+  </Birth>
+  <IsDead>Y</IsDead>
+  <Death>
+    <Date>1655</Date>
+  </Death>
+</Individual>
+<Individual ID="I0025">
+  <Name>Shakespeare Quiney
+    <Display>Shakespeare Quiney</Display>
+    <First>Shakespeare</First>
+    <Last>Quiney</Last>
+  </Name>
+  <Position BoundaryRect="-35,-223,45,-302">5,-255</Position>
+  <Gender>M</Gender>
+  <Birth>
+    <Date>18 Nov 1616</Date>
+    <Baptism>
+      <Date>23 Nov 1616</Date>
+    </Baptism>
+  </Birth>
+  <IsDead>Y</IsDead>
+  <Death>
+    <Date>1 May 1617</Date>
+    <Disposition>
+      <Date>8 May 1617</Date>
+    </Disposition>
+  </Death>
+</Individual>
+<Individual ID="I0026">
+  <Name>Richard Quiney
+    <Display>Richard Quiney</Display>
+    <First>Richard</First>
+    <Last>Quiney</Last>
+  </Name>
+  <Position BoundaryRect="61,-223,129,-302">95,-255</Position>
+  <Gender>M</Gender>
+  <Birth>
+    <Date>2 Feb 1618</Date>
+    <Baptism>
+      <Date>9 Feb 1618</Date>
+    </Baptism>
+  </Birth>
+  <IsDead>Y</IsDead>
+  <Death>
+    <Date>1 Feb 1639</Date>
+    <Disposition>
+      <Date>6 Feb 1639</Date>
+    </Disposition>
+  </Death>
+</Individual>
+<Individual ID="I0027">
+  <Name>Thomas Quiney
+    <Display>Thomas Quiney</Display>
+    <First>Thomas</First>
+    <Last>Quiney</Last>
+  </Name>
+  <Position BoundaryRect="146,-223,214,-302">180,-255</Position>
+  <Gender>M</Gender>
+  <Birth>
+    <Date>20 Jan 1620</Date>
+    <Baptism>
+      <Date>23 Jan 1620</Date>
+    </Baptism>
+  </Birth>
+  <IsDead>Y</IsDead>
+  <Death>
+    <Date>27 Jan 1639</Date>
+    <Disposition>
+      <Date>28 Jan 1639</Date>
+    </Disposition>
+  </Death>
+</Individual>
+<Individual ID="I0028">
+  <Name>Richard Hathaway
+    <Display>Richard Hathaway</Display>
+    <First>Richard</First>
+    <Last>Hathaway</Last>
+  </Name>
+  <Position BoundaryRect="301,127,369,48">335,95</Position>
+  <Gender>M</Gender>
+  <IsDead>Y</IsDead>
+  <Death>
+    <Date>11 Sep 1581</Date>
+  </Death>
+</Individual>
+<Individual ID="I0029">
+  <Name>Margaret Wheeler
+    <Display>Margaret Wheeler</Display>
+    <First>Margaret</First>
+    <Last>Wheeler</Last>
+  </Name>
+  <Position BoundaryRect="421,-108,489,-187">455,-140</Position>
+  <Gender>F</Gender>
+  <IsDead>Y</IsDead>
+  <Death>
+    <Date>15 Mar 1616</Date>
+    <Disposition>
+      <Date>15 Mar 1616</Date>
+    </Disposition>
+  </Death>
+</Individual>
+<Individual ID="I0030">
+  <Name>Not named Quiney
+    <Display>Not named Quiney</Display>
+    <First>Not named</First>
+    <Last>Quiney</Last>
+  </Name>
+  <Position BoundaryRect="269,-229,321,-316">295,-255</Position>
+  <IsDead>Y</IsDead>
+  <Death>
+    <Disposition>
+      <Date>15 Mar 1616</Date>
+    </Disposition>
+  </Death>
+</Individual>
+<Individual ID="I0031">
+  <Name>Unknown
+    <Display>Unknown</Display>
+    <Last>Unknown</Last>
+  </Name>
+  <IsDead>Y</IsDead>
+  <Position BoundaryRect="-376,331,-314,272">-345,305</Position>
+  <Gender>F</Gender>
+</Individual>
+</Individuals>
+<Families>
+<Family ID="F001">
+  <Position>-205,40
+    <Top>
+      <Left>-475,40</Left>
+      <Right>265,40</Right>
+    </Top>
+  </Position>
+  <Relation>Marriage</Relation>
+  <Unions>marr00001</Unions>
+</Family>
+<Family ID="F002">
+  <Position>-205,-90
+    <Top>
+      <Left>-235,-90</Left>
+      <Right>360,-90</Right>
+    </Top>
+  </Position>
+  <Relation>Marriage</Relation>
+  <Unions>marr00002</Unions>
+</Family>
+<Family ID="F003">
+  <Position>-440,240
+    <Top>
+      <Left>-510,240</Left>
+      <Right>-345,240</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="F004">
+  <Position>-350,95
+    <Top>
+      <Left>-380,95</Left>
+      <Right>-290,95</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="F005">
+  <Position>275,210
+    <Top>
+      <Left>245,210</Left>
+      <Right>320,210</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="F006">
+  <Position>-270,-205
+    <Top>
+      <Left>-300,-205</Left>
+      <Right>-210,-205</Right>
+    </Top>
+  </Position>
+  <Relation>Marriage</Relation>
+  <Unions>marr00003</Unions>
+</Family>
+<Family ID="F007">
+  <Position>-305,-325
+    <Top>
+      <Left>-365,-325</Left>
+      <Right>-275,-325</Right>
+    </Top>
+  </Position>
+  <Relation>Marriage</Relation>
+  <Unions>marr00004</Unions>
+</Family>
+<Family ID="F008">
+  <Position>-395,-325
+    <Top>
+      <Left>-450,-325</Left>
+      <Right>-365,-325</Right>
+    </Top>
+  </Position>
+  <Relation>Marriage</Relation>
+  <Unions>marr00005</Unions>
+</Family>
+<Family ID="F009">
+  <Position>10,-205
+    <Top>
+      <Left>-20,-205</Left>
+      <Right>245,-205</Right>
+    </Top>
+  </Position>
+  <Relation>Marriage</Relation>
+  <Unions>marr00006</Unions>
+</Family>
+<Family ID="F010">
+  <Position>365,25
+    <Top>
+      <Left>335,25</Left>
+      <Right>395,25</Right>
+    </Top>
+  </Position>
+</Family>
+<Family ID="F011">
+  <Position>275,-205
+    <Top>
+      <Left>245,-205</Left>
+      <Right>455,-205</Right>
+    </Top>
+  </Position>
+  <Relation>Marriage</Relation>
+  <Unions>marr00007</Unions>
+</Family>
+</Families>
+<Marriages>
+<Marriage ID="marr00001">
+  <Type>Religious</Type>
+  <Date>1557</Date>
+</Marriage>
+<Marriage ID="marr00002">
+  <Type>Religious</Type>
+  <Date>Nov 1582</Date>
+</Marriage>
+<Marriage ID="marr00003">
+  <Type>Religious</Type>
+  <Date>5 Jun 1607</Date>
+  <Place>place00001</Place>
+</Marriage>
+<Marriage ID="marr00004">
+  <Type>Religious</Type>
+  <Date>1626</Date>
+</Marriage>
+<Marriage ID="marr00005">
+  <Type>Religious</Type>
+  <Date>1649</Date>
+</Marriage>
+<Marriage ID="marr00006">
+  <Type>Religious</Type>
+  <Date>10 Feb 1616</Date>
+  <Place>place00001</Place>
+</Marriage>
+<Marriage ID="marr00007">
+  <Type>Religious</Type>
+</Marriage>
+</Marriages>
+<PedigreeLinks>
+<PedigreeLink PedigreeLink="Biological" Family="F001" Individual="I0001"/>
+<PedigreeLink PedigreeLink="Parent" Family="F002" Individual="I0001"/>
+<PedigreeLink PedigreeLink="Biological" Family="F005" Individual="I0002"/>
+<PedigreeLink PedigreeLink="Parent" Family="F001" Individual="I0002"/>
+<PedigreeLink PedigreeLink="Biological" Family="F003" Individual="I0003"/>
+<PedigreeLink PedigreeLink="Parent" Family="F001" Individual="I0003"/>
+<PedigreeLink PedigreeLink="Biological" Family="F010" Individual="I0004"/>
+<PedigreeLink PedigreeLink="Parent" Family="F002" Individual="I0004"/>
+<PedigreeLink PedigreeLink="Biological" Family="F002" Individual="I0005"/>
+<PedigreeLink PedigreeLink="Parent" Family="F006" Individual="I0005"/>
+<PedigreeLink PedigreeLink="Biological" Family="F002" Individual="I0006"/>
+<PedigreeLink PedigreeLink="Biological" Family="F002" Individual="I0007"/>
+<PedigreeLink PedigreeLink="Parent" Family="F009" Individual="I0007"/>
+<PedigreeLink PedigreeLink="Biological" Family="F001" Individual="I0008"/>
+<PedigreeLink PedigreeLink="Biological" Family="F001" Individual="I0009"/>
+<PedigreeLink PedigreeLink="Biological" Family="F001" Individual="I0010"/>
+<PedigreeLink PedigreeLink="Biological" Family="F001" Individual="I0011"/>
+<PedigreeLink PedigreeLink="Biological" Family="F001" Individual="I0012"/>
+<PedigreeLink PedigreeLink="Biological" Family="F001" Individual="I0013"/>
+<PedigreeLink PedigreeLink="Biological" Family="F001" Individual="I0014"/>
+<PedigreeLink PedigreeLink="Parent" Family="F003" Individual="I0015"/>
+<PedigreeLink PedigreeLink="Biological" Family="F003" Individual="I0016"/>
+<PedigreeLink PedigreeLink="Parent" Family="F004" Individual="I0016"/>
+<PedigreeLink PedigreeLink="Parent" Family="F004" Individual="I0017"/>
+<PedigreeLink PedigreeLink="Parent" Family="F005" Individual="I0018"/>
+<PedigreeLink PedigreeLink="Parent" Family="F005" Individual="I0019"/>
+<PedigreeLink PedigreeLink="Parent" Family="F006" Individual="I0020"/>
+<PedigreeLink PedigreeLink="Biological" Family="F006" Individual="I0021"/>
+<PedigreeLink PedigreeLink="Parent" Family="F007" Individual="I0021"/>
+<PedigreeLink PedigreeLink="Parent" Family="F008" Individual="I0021"/>
+<PedigreeLink PedigreeLink="Parent" Family="F007" Individual="I0022"/>
+<PedigreeLink PedigreeLink="Parent" Family="F008" Individual="I0023"/>
+<PedigreeLink PedigreeLink="Parent" Family="F009" Individual="I0024"/>
+<PedigreeLink PedigreeLink="Parent" Family="F011" Individual="I0024"/>
+<PedigreeLink PedigreeLink="Biological" Family="F009" Individual="I0025"/>
+<PedigreeLink PedigreeLink="Biological" Family="F009" Individual="I0026"/>
+<PedigreeLink PedigreeLink="Biological" Family="F009" Individual="I0027"/>
+<PedigreeLink PedigreeLink="Parent" Family="F010" Individual="I0028"/>
+<PedigreeLink PedigreeLink="Parent" Family="F011" Individual="I0029"/>
+<PedigreeLink PedigreeLink="Biological" Family="F011" Individual="I0030"/>
+<PedigreeLink PedigreeLink="Parent" Family="F003" Individual="I0031"/>
+</PedigreeLinks>
+<Places>
+<Place ID="place00001">
+  <Name>Stratford-upon-Avon</Name>
+</Place>
+<Place ID="place00002">
+  <Name>Shottery</Name>
+</Place>
+</Places>
+<Pictures>
+<Picture ID="pic00001">
+  <Path Relative=".\photos\WilliamShakespeare.jpg">.\photos\WilliamShakespeare.jpg</Path>
+  <Name>William Shakespeare</Name>
+</Picture>
+<Picture ID="pic00002">
+  <Path Relative=".\photos\JudithShakespeare.jpg">.\photos\JudithShakespeare.jpg</Path>
+  <Name>Judith Shakespeare</Name>
+</Picture>
+<Picture ID="pic00003">
+  <Path Relative=".\photos\AnneHathaway.jpg">.\photos\AnneHathaway.jpg</Path>
+  <Name>Anne Hathaway</Name>
+</Picture>
+<Picture ID="pic00004">
+  <Path Relative=".\photos\MaryArden.jpg">.\photos\MaryArden.jpg</Path>
+  <Name>Mary Arden</Name>
+</Picture>
+<Picture ID="pic00005">
+  <Path Relative=".\photos\JohnShakespeare.jpg">.\photos\JohnShakespeare.jpg</Path>
+  <Name>John Shakespeare</Name>
+</Picture>
+</Pictures>
+</GenoPro>

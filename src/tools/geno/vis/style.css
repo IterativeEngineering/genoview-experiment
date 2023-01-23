@@ -1,0 +1,149 @@
+svg {
+	user-select: none;
+}
+
+.family-link {
+	cursor: pointer;
+}
+
+.family-link line {
+	stroke: grey;
+	stroke-width: 3px;
+	stroke-linecap: round;
+}
+
+.family-link.divorced line {
+	stroke-dasharray: 5;
+}
+
+.family-link text {
+	font-size: 10px;
+	text-anchor: middle;
+}
+
+.family-link.ancestor line {
+	stroke: red;
+}
+
+.family-link.selected line {
+	stroke: green;
+}
+
+.pedigree-link {
+	stroke: rgba(0, 0, 0, 0.2);
+	stroke-width: 3px;
+	stroke-linecap: round;
+}
+
+.pedigree-link.adopted {
+	stroke-dasharray: 5;
+}
+
+.ancestor .pedigree-link {
+	stroke: red;
+	z-index: 2;
+}
+
+text {
+	font-family: Helvetica, Arial, Verdana;
+	z-index: 999;
+}
+
+.individual rect {
+	fill: none;
+}
+
+.individual text {
+	text-anchor: middle;
+	font-size: 11px;
+}
+
+.individual:hover {
+	cursor: pointer;
+}
+
+circle {
+	z-index: 998;
+	stroke: rgb(0,0,0);
+	stroke-width: 2px;
+	r: 13px;
+}
+
+.individual.female circle {
+	fill: salmon;
+}
+
+.individual.male circle {
+	fill: lightblue;
+}
+
+.individual.pet circle {
+	fill: lightgrey;
+	r: 10px;
+	stroke-width: 1px;
+}
+
+.individual.selected circle {
+	stroke: limegreen;
+}
+
+.individual.selected {
+	fill: green;
+}
+
+.individual.selected .name {
+	stroke: yellow;
+	stroke-width: 3px;
+}
+
+.individual.ancestor .name {
+	stroke: rgba(255, 230, 200);
+	stroke-width: 3px;
+}
+
+.individual.dead circle {
+	stroke-opacity: 0.5;
+	stroke-dasharray: 5 1;
+}
+
+.individual.female.dead circle {
+    fill: #FFC2B1;
+}
+
+.individual.male.dead circle {
+    fill: #D1EAEF;
+}
+
+.individual.size-s text {
+	font-size: 8px;
+}
+
+.individual text.name, .individual text.birth-date, .individual text.death-date {
+	paint-order: stroke;	
+	stroke: white;	
+	stroke-width: 2px;
+}
+
+.individual text.name.hyperlink {
+	fill: darkblue;
+	text-decoration: underline;
+}
+
+.individual circle {
+	fill: white;
+}
+
+.individual .date-text {
+	font-size: 8px;
+}
+
+.size-s circle {
+	r: 10px;
+}
+
+.iterative-logo {
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	width: 100px;
+}
